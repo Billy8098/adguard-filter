@@ -1,0 +1,21 @@
+! Title: Billy's AdGuard All-in-One
+! Description: Combines official AdGuard Base, Tracking Protection, URL Tracking, Social Media, and Annoyances filters.
+! Homepage: https://github.com/AdguardTeam/FiltersRegistry
+! Expires: 1 day
+!
+! This wrapper uses AdGuard's !#include directive to load the current official upstream lists.
+
+! AdGuard Base filter
+!#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+
+! AdGuard Tracking Protection filter
+!#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+! AdGuard URL Tracking filter
+!#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+
+! AdGuard Social Media filter
+!#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+
+! AdGuard Annoyances filter
+!#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
