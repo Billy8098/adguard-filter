@@ -25,3 +25,6 @@
 
 ! Actually Legitimate URL Shortener
 !#include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+
+@@||lens.google.com^
+@@||www.google.com/search?*lns_mode=*$removeparam
