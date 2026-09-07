@@ -1,9 +1,9 @@
 ! Title: Billy's AdGuard All-in-One
-! Description: Combines official AdGuard Base, Tracking Protection, URL Tracking, Social Media, and Annoyances filters.
-! Homepage: https://github.com/AdguardTeam/FiltersRegistry
+! Description: Combines AdGuard Base, Tracking Protection, URL Tracking, Social Media, Annoyances, Mail Tracking Protection, and Actually Legitimate URL Shortener.
+! Homepage: https://github.com/Billy8098/adguard-filter
 ! Expires: 1 day
 !
-! This wrapper uses AdGuard's !#include directive to load the current official upstream lists.
+! This wrapper uses AdGuard's !#include directive to load current upstream lists.
 
 ! AdGuard Base filter
 !#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
@@ -19,3 +19,9 @@
 
 ! AdGuard Annoyances filter
 !#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+
+! AdGuard Mail Tracking Protection filter
+!#include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_25_Mail_Tracking_Protection/filter.txt
+
+! Actually Legitimate URL Shortener
+!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
