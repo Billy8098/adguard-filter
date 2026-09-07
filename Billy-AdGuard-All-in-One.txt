@@ -26,6 +26,7 @@
 ! Actually Legitimate URL Shortener
 !#include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 
-! Fix Google Lens broken by removeparam cleanup
+! Fix Google Lens broken by removeparam rules
+@@||www.google.com/search^$removeparam
 @@||lens.google.com^
-@@||www.google.com/search?*lns_mode=*$removeparam
+@@||lensfrontend-pa.googleapis.com^
